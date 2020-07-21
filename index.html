@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="main.css">
+  <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+</head>
+ 
+<body>
+    <div class="outside-border">
+        <h1 id="output">#</h1>
+ 
+        <p id="calc-name">ROCC-2020
+        <button id="on-button" onclick="calculator.startCalculator()">ON/C</button>
+        </p>        
+ 
+        <div class="inside-border">
+                
+            <div class="button-row">
+                <div class="button-column">
+                
+                    <button onclick="calculator.appendNumber('7')">7</button>
+                    <button onclick="calculator.appendNumber('4')">4</button>
+                    <button onclick="calculator.appendNumber('1')">1</button>
+                    <button>.</button>
+                
+                </div>
+                <div class="button-column">
+                        
+                    <button onclick="calculator.appendNumber('8')">8</button>
+                    <button onclick="calculator.appendNumber('5')">5</button>
+                    <button onclick="calculator.appendNumber('2')">2</button>
+                    <button onclick="calculator.appendNumber('0')">0</button>
+                
+                </div>
+                <div class="button-column">
+                        
+                    <button onclick="calculator.appendNumber('9')">9</button>
+                    <button onclick="calculator.appendNumber('6')">6</button>
+                    <button onclick="calculator.appendNumber('3')">3</button>
+                    <button>=</button>
+                </div>
+                <div class="button-column">
+                        
+                    <button onclick="calculator.performOperation('x')">x</button>
+                    <button onclick="calculator.performOperation('/')">/</button>
+                    <button onclick="calculator.performOperation('+')">+</button>
+                    <button onclick="calculator.performOperation('-')">-</button>
+                </div>
+                    
+            </div>
+        </div>
+  </div>
+<script src="app.js"></script>
+</body>
+</html>
