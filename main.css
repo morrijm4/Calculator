@@ -1,65 +1,65 @@
 .outside-border {
- 
-    background-color: grey;
-    border-style: groove;
-    border-color: black;
-    border-radius: 4px;
-    text-align: center;
-    width: 200px;
-    padding: 10px 14px 20px 12px;
+
+	background-color: grey;
+	border-style: groove;
+	border-color: black;
+	border-radius: 4px;
+	text-align: center;
+	width: 200px;
+	padding: 10px 14px 20px 12px;
 }
- 
+
 #output {
-    
-    background-color: white;
-    border-style: groove;
-    border-color: black;
-    font-family: 'Audiowide';
-    font-size: 1.5em;
-    text-align: right;
-    color: white;
-    margin: 20px 10px 0px 10x;
-    padding: 5px;
+	
+	background-color: white;
+	border-style: groove;
+	border-color: black;
+	font-family: 'Audiowide';
+	font-size: 1.5em;
+	text-align: right;
+	color: white;
+	margin: 20px 10px 0px 10x;
+	padding: 5px;
 }
- 
+
 #calc-name {
-    
-    text-align: left;
-    font-weight: bold;
-    font-family: 'Audiowide';
-    margin: 0px 0px 10px 0px;
+	
+	text-align: left;
+	font-weight: bold;
+	font-family: 'Audiowide';
+	margin: 0px 0px 10px 0px;
 }
- 
+
 .inside-border {
- 
-    border-style: groove;
-    border-color: black;
-    border-radius: 4px;
-    background-color: lightgray;
-    margin: 8px 0px 0px 0px;
-    width: 200px;
-    
+
+	border-style: groove;
+	border-color: black;
+	border-radius: 4px;
+	background-color: lightgray;
+	margin: 8px 0px 0px 0px;
+	width: 200px;
+	
 }
- 
+
 .button-row {
- 
-    display: flex;
-    justify-content: stretch;
-    padding: 0 0 0 1px;
-    
+
+	display: flex;
+	justify-content: stretch;
+	padding: 0 0 0 1px;
+	
 }
- 
+
 .button-column {
- 
-    display: flex;
-    justify-content: left;
-    align-items: stretch;
-    flex-flow: column wrap;
-    
+
+	display: flex;
+	justify-content: left;
+	align-items: stretch;
+	flex-flow: column wrap;
+	
 }
- 
+
 .button-column > button {
- 
+
   background-color: white; 
   border: 2px solid #555555;
   border-radius: 8px;
@@ -74,18 +74,18 @@
   transition-duration: 0.4s;
   cursor: pointer;
 }
- 
+
 .button-column > button:hover {
- 
-    background-color: #555555;
-    color:white;
+
+	background-color: #555555;
+	color:white;
 }
- 
+
 #on-button {
- 
-    background-color: tomato;
-    font-family: 'Audiowide';
-    width: 5em;
-    height: 22px;
-    margin: 0 0 0 14px;
+
+	background-color: tomato;
+	font-family: 'Audiowide';
+	width: 5em;
+	height: 22px;
+	margin: 0 0 0 14px;
 }
