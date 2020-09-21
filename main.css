@@ -9,7 +9,7 @@ body {
 #welcome-message {
 	background-color: #C7FBCB;
 	border-radius: 4px;
-	color: rgb(61, 56, 56);
+	color: rgb(43, 41, 41);
 	padding: 5px;
 	margin-bottom: 10px;
 }
@@ -18,7 +18,7 @@ body {
 
 	background-color: grey;
 	border-style: groove;
-	border-color: black;
+	border-color: rgb(43, 41, 41);
 	border-radius: 4px;
 	text-align: center;
 	width: 200px;
@@ -29,7 +29,7 @@ body {
 	
 	background-color: white;
 	border-style: groove;
-	border-color: black;
+	border-color: rgb(43, 41, 41);
 	font-family: 'Audiowide';
 	font-size: 1.5em;
 	text-align: right;
@@ -40,6 +40,7 @@ body {
 
 #calc-name {
 	
+	color: rgb(19, 18, 18);
 	text-align: left;
 	font-weight: bold;
 	font-family: 'Audiowide';
@@ -49,7 +50,7 @@ body {
 .inside-border {
 
 	border-style: groove;
-	border-color: black;
+	border-color: rgb(43, 41, 41);
 	border-radius: 4px;
 	background-color: lightgray;
 	margin: 8px 0px 0px 0px;
@@ -79,7 +80,7 @@ body {
   background-color: white; 
   border: 2px solid #555555;
   border-radius: 8px;
-  color: black;
+  color: rgb(43, 41, 41);
   padding: 16px 14px;
   text-align: center;
   text-decoration: none;
